@@ -54,17 +54,17 @@
                                         @for(int i = 0; i < Model.Results.Count(); i += 10)
                                         {
                                             <tr>
-                                                <td>@Model.Results[i]</td>
-                                                <td>@Model.Results[i + 1]</td>
-                                                <td>@Model.Results[i + 2]</td>
-                                                <td>@Model.Results[i + 3]</td>
-                                                <td>@Model.Results[i + 4]</td>
-                                                <td>@Model.Results[i + 5]</td>
-                                                <td>@Model.Results[i + 6]</td>
-                                                <td>@Model.Results[i + 7]</td>
-                                                <td>@Model.Results[i + 8]</td>
-                                                <td>@Model.Results[i + 9]</td>
-                                            </tr>
+                                                <td data-color-code="@(Model.Results[i].ToString().ToLower())">@Model.Results[i]</td>
+                                                <td data-color-code="@(Model.Results[i + 1].ToString().ToLower())">@Model.Results[i + 1]</td>
+                                                <td data-color-code="@(Model.Results[i + 2].ToString().ToLower())">@Model.Results[i + 2]</td>
+                                                <td data-color-code="@(Model.Results[i + 3].ToString().ToLower())">@Model.Results[i + 3]</td>
+                                                <td data-color-code="@(Model.Results[i + 4].ToString().ToLower())">@Model.Results[i + 4]</td>
+                                                <td data-color-code="@(Model.Results[i + 5].ToString().ToLower())">@Model.Results[i + 5]</td>
+                                                <td data-color-code="@(Model.Results[i + 6].ToString().ToLower())">@Model.Results[i + 6]</td>
+                                                <td data-color-code="@(Model.Results[i + 7].ToString().ToLower())">@Model.Results[i + 7]</td>
+                                                <td data-color-code="@(Model.Results[i + 8].ToString().ToLower())">@Model.Results[i + 8]</td>
+                                                <td data-color-code="@(Model.Results[i + 9].ToString().ToLower())">@Model.Results[i + 9]</td>
+                                            </tr>                                          
                                         }
                                     </tbody>
                                 </table>
