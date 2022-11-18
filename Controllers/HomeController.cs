@@ -13,7 +13,7 @@ namespace FizzBuzz_MVC.Controllers
             _logger = logger;
         }
 
-        public IActionResult FizzBussPage()
+        public IActionResult FizzBuzzPage()
         {
             return View();
         }
